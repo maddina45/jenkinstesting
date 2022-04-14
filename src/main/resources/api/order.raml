@@ -1,0 +1,15 @@
+#%RAML 1.0
+title: order
+
+/order:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "item": "mobiles",
+                "itemno" : "1",
+                "price" : 3000
+              }
